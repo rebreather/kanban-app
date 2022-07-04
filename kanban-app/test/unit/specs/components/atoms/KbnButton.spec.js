@@ -1,3 +1,4 @@
+/* eslint-disable */
 import {mount} from '@vue/test-utils'
 import KbnButton from '@/components/atoms/KbnButton.vue'
 
