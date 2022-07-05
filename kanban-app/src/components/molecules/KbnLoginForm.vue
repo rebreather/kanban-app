@@ -7,7 +7,7 @@
         v-model="email"
         type="text"
         autocomplete="off"
-        placeholder="例: kanban@domain.com"
+        placeholder="예시: kanban@domain.com"
         @focus="resetError">
       <ul class="validation-errors">
         <li v-if="!validation.email.format">이메일 주소 형식에 어긋납니다.</li>
