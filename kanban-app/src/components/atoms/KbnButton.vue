@@ -45,6 +45,9 @@ export default {
 <style scoped>
     .kbn-button {
         padding: .6em 1.3em;
+        border: none;
+        color: #8da4d0;
+        background-color: white;
     }
     .kbn-button-text {
         border: none;
