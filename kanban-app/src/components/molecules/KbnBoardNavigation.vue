@@ -29,14 +29,14 @@ export default {
 <style scoped>
 .board-navigation {
   display: flex;
-  border-bottom: medium solid #f8cacc;
+  border-bottom: medium solid rgb(255, 255, 249);
 }
 .title {
   flex: 1;
 }
 h1 {
   margin: 0px;
-  color:#f8cacc;
+  color:rgb(255, 255, 249);
 }
 .actions {
   width: 64px;
@@ -46,7 +46,7 @@ h1 {
 }
 button {
   cursor: pointer;
-  background-color: white;
+  background-color: none;
   color: #8da4d0;
 }
 </style>
