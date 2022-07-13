@@ -4,3 +4,6 @@ export const ADD_TASK = 'ADD_TASK' //태스크 추가
 export const UPDATE_TASK = 'UPDATE_TASK' //태스크 수정
 export const REMOVE_TASK = 'REMOVE_TASK' //태스크 삭제
 export const AUTH_LOGOUT = 'AUTH_LOGOUT' //사용자 로그아웃
+export const MOVE_TASK_FROM = 'MOVE_TASK_FROM' //이동할 태스크 출처
+export const MOVE_TO_TASK = 'MOVE_TO_TASK' //어디로 이동할건지
+export const MOVE_TASK_DONE = 'MOVE_TASK_DONE' //이동 완료
