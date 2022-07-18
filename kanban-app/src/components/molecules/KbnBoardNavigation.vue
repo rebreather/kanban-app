@@ -8,7 +8,7 @@
         type="text"
         @click="$emit('logout')"
       >
-        로그아웃
+        Logout
       </KbnButton>
     </div>
   </nav>
@@ -29,13 +29,14 @@ export default {
 <style scoped>
 .board-navigation {
   display: flex;
-  border-bottom: medium solid rgb(255, 255, 249);
+  border-bottom: .1em solid rgb(255, 255, 249);
+  margin-top: .2em;
 }
 .title {
   flex: 1;
 }
 h1 {
-  margin: 0px;
+  margin:0em;
   color:rgb(255, 255, 249);
 }
 .actions {
@@ -43,10 +44,14 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 button {
   cursor: pointer;
-  background-color: none;
-  color: #8da4d0;
+  background-color: rgba(255,156,146, 1) !important;
+  color: white;
+  border-radius: 20px;
+  padding: 0.2em 0.8em;
+  width:80%;
 }
 </style>

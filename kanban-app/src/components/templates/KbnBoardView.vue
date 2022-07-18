@@ -82,9 +82,8 @@ export default {
 
 <style scoped>
 .board-view {
-  border: medium solid rgb(255, 255, 249);
+  border: normal solid rgba(255, 255, 249, 0);
   margin-top: 30px;
-  margin-left: 100px;
 }
 .progress {
   margin: auto;

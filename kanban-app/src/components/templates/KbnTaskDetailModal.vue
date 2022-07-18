@@ -84,7 +84,7 @@ export default {
   width: 480px;
   margin: 0 auto;
   padding: 8px;
-  background-color: #fff;
+  background-color: #012c4f;
   border-radius: 0.5em;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
   transition: all .3s ease;
@@ -95,6 +95,8 @@ export default {
 .header button {
   width: 16px;
   cursor: pointer;
+  background-color: rgba(255,255,255, 0) !important;
+  color: white;
 }
 .body {
   width: 100%;

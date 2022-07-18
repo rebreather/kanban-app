@@ -39,7 +39,7 @@ ul {
 ul li {
   width: 192px;
   margin-right: 8px;
-  border: thin solid rgb(255, 255, 249);
+  border: thin solid rgba(255, 255, 249,0);
   border-radius: 0.5em;
 }
 </style>

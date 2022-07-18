@@ -36,9 +36,10 @@ export default {
 </script>
 
 <style scoped>
-    .kbn-icon {
-        border: none;
-        color: #8da4d0;
-        background-color: white;
-    }
+.kbn-icon {
+  border: none;
+  color: white;
+  background: transparent;
+  background-color: rgba(255,255,255, 0) !important;
+}
 </style>

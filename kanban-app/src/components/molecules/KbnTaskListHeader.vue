@@ -58,5 +58,7 @@ h2 {
 }
 button {
   cursor: pointer;
+  background-color: rgba(255,255,255, 0) !important;
+  color: white;
 }
 </style>

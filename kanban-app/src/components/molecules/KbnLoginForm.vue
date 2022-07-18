@@ -1,13 +1,13 @@
 <template>
   <form novalidate>
     <div class="form-item">
-      <label for="email">이메일 주소</label>
+      <label for="email">Email Address</label>
       <input
         id="email"
         v-model="email"
         type="text"
         autocomplete="off"
-        placeholder="예시: kanban@domain.com"
+        placeholder="EX: kanban@domain.com"
         @focus="resetError">
       <ul class="validation-errors">
         <li v-if="!validation.email.format">이메일 주소 형식에 어긋납니다.</li>
@@ -15,13 +15,13 @@
       </ul>
     </div>
     <div class="form-item">
-      <label for="passowrd">패스워드</label>
+      <label for="passowrd">Password</label>
       <input
         id="password"
         v-model="password"
         type="password"
         autocomplete="off"
-        placeholder="예시: xxxxxxxx"
+        placeholder="EX: xxxxxxxx"
         @focus="resetError">
       <ul class="validation-errors">
         <li v-if="!validation.password.required">패스워드가 입력되지 않았습니다.</li>
@@ -32,13 +32,13 @@
         :disabled="disableLoginAction"
         @click="handleClick"
       >
-        로그인
+        Login
       </KbnButton>
       <p
         v-if="progress"
         class="login-progress"
       >
-        로그인 중...
+        ing...
       </p>
       <p
         v-if="error"
@@ -144,11 +144,26 @@ form {
 }
 label {
   display: block;
+  color: white;
+  padding-left: 20px;
+  margin-bottom: 3px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
 }
 input {
   width: 100%;
+  height: 30px;
   padding: .5em;
-  font: inherit;
+  font:inherit;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: transparent;
+  background-color: rgba(255,255,255, .1) !important;
+	/* border: 1px solid transparent; */
+	border: none;
+  border-radius: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 ul {
   list-style-type: none;
@@ -157,11 +172,15 @@ ul {
 }
 ul li {
   font-size: 0.5em;
+  color: white;
 }
 .validation-errors {
   height: 32px;
+  padding-left: 20px;
 }
 .form-actions p {
   font-size: 0.5em;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 </style>

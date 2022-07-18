@@ -101,7 +101,7 @@ export default {
 .task-form {
   margin: 8px;
   padding: 4px;
-  border: thin solid black;
+  border: thin solid white;
   border-radius: 0.5em;
 }
 .form-item {

@@ -46,12 +46,16 @@ export default {
     .kbn-button {
         padding: .6em 1.3em;
         border: none;
-        color: #8da4d0;
-        background-color: white;
+        border-radius: 40px;
+        color: white;
+        background: transparent;
+        background-color: rgba(255,156,146, 1) !important;
+
     }
     .kbn-button-text {
         border: none;
         padding-right: 0;
         padding-left: 0;
+          font-family: Georgia, 'Times New Roman', Times, serif;
     }
 </style>

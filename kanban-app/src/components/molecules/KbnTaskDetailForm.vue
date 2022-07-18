@@ -96,15 +96,29 @@ form {
   display: block;
   margin: 0 auto;
   text-align: left;
+  background-color: #012c4f;
+  color: white;
 }
 label {
   display: block;
 }
 input, textarea {
   width: 99%;
+  margin-top:.3em;
+  margin-bottom: .2em;
+  color:white;
+  background: transparent;
+  /* background-color: rgba(255,255,255, .1) !important; */
+  border: 1px solid white;
+  border-radius: 10px;
 }
 .form-actions {
   display: flex;
   justify-content: flex-end;
+}
+button {
+  cursor: pointer;
+  background-color: rgba(255,255,255, 0) !important;
+  color: white;
 }
 </style>

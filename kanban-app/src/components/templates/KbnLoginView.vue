@@ -33,6 +33,8 @@ export default {
   margin: auto;
 }
 .h1 {
-  color: #8da4d0;
+  color: white;
+  font-weight: lighter;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
 </style>

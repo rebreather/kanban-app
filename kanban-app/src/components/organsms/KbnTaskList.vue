@@ -126,4 +126,7 @@ ul li {
   border: thin solid rgb(255, 255, 249);
   border-radius: 0.5em;
 }
+draggable {
+  transition:all 0.5s ease-out
+}
 </style>
